@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Ganti dengan IP komputer Anda
-const API_BASE_URL = 'http://ISI IP/storage_api';
+const API_BASE_URL = 'http://ISI IP/uas-mobile/storage_api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
